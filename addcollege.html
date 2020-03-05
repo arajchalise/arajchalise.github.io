@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MEC-Super Admin Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+    <div class="container-fluid" style="margin-left: 200px;">
+      <nav style="">
+    <div style="float: left; width: 100px;"><img src="logo.png" style="width: 100%;"></div><div><h4>Goverment of Nepal</h4>
+    <h3>Medical Education Commission</h3></div>
+</nav>
+      <h2 align="center">Add College Record</h2>
+        <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="inputEmail4">College ID</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="" name="name_nepali" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                    <label for="inputPassword4">College Name </label>
+                    <input type="text" class="form-control" id="inputtext4" placeholder="" name="name_block" required>
+                    </div>
+          </div>
+          <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="inputEmail4">Address</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="" name="name_nepali" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                    <label for="inputPassword4">Contact No </label>
+                    <input type="text" class="form-control" id="inputtext4" placeholder="" name="name_block" required>
+                    </div>
+          </div>
+          <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="" name="name_nepali" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                    <label for="inputPassword4">Website </label>
+                    <input type="text" class="form-control" id="inputtext4" placeholder="" name="name_block" required>
+                    </div>
+          </div>
+          <button class="btn btn-primary">Submit</button>
+    </div>
+    <div id="mySidenav" class="sidenav">
+  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+<!--   <a href="addcollege.html">Add College</a>
+  <a href="approved.html">Approved College</a>
+  <a href="#">College Category</a>
+  <a href="#">Student Category</a> -->
+</div>
+
+<!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
